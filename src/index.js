@@ -12,6 +12,7 @@ app.use(express.json())
 app.use("/user",userController)
 app.use("/books",bookController)
 app.use("/publication",publicationController)
+app.use("/comment",comment)
 
 
 
